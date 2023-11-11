@@ -21,5 +21,5 @@ from websites.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fefusports/', index)
+    path('fefusports/', home_page)
 ]
